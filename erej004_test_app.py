@@ -43,7 +43,7 @@ elif choice == "Division":
 
 
 st.header("Advanced Calculator")
-options = ["Factorial", "Exponent", "Square Root"]
+options = ["Factorial", "Exponent", "Square"]
 choice = st.selectbox("Option", options)
     # if choice == "Addition":
     #     a = st.number_input("Please input First Number")
@@ -71,10 +71,10 @@ elif choice == "Exponent":
         st.write("Result is : ", result)
 
 
-elif choice == "Square Root":
+elif choice == "Square":
         a = st.number_input("Enter a Number", min_value=0, max_value=100, value=1, step=1)
-        square_root = a * a
-        st.write("Sruare of", a, "is", square_root)
+        square = a * a
+        st.write("Sruare of", a, "is", square)
 
         # x = int(input('Enter your number'))
         # z = x * x
